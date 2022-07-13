@@ -10,7 +10,7 @@ int main() {
         total += getInt();
     }
 
-    printf("The total sum of the numbers is %i", total);
+    printf("The total sum of the numbers is %i\n", total);
 
     return 0;
 }
