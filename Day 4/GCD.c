@@ -27,7 +27,7 @@ int GCD(int numberOne, int numberTwo) {
             break;
 
             numberOne = numberTwo;
-            numberTwo = r;
+            numberTwo = remainder;
     }
 
     return numberTwo;
