@@ -7,7 +7,6 @@
 short GetShort(void);
 int GetInt(void);
 long GetLong(void);
-char GetChar(void);
 float GetFloat(void);
 double GetDouble(void);
 long double GetLongDouble(void);
@@ -37,14 +36,6 @@ long GetLong(void) {
     long toReturn;
 
     scanf("%li", &toReturn);
-
-    return toReturn;
-}
-
-char GetChar(void) {
-    char toReturn;
-
-    scanf("%c", &toReturn);
 
     return toReturn;
 }
