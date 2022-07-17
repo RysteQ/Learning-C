@@ -7,8 +7,8 @@ static int StaticReturnNumberTen(void);
 int ReturnNumberTen(void);
 
 int main() {
-    printf("This is a global variable with a value of %i that every file can access", nonStaticVariable);
-    printf("This is a global variable with a value of %i that only this file can access", staticVariable);
+    printf("This is a global variable with a value of %i that every file can access\n", nonStaticVariable);
+    printf("This is a global variable with a value of %i that only this file can access\n", staticVariable);
 
     // the StaticReturnNumberTen is only accessible for this file
     int numberTen = StaticReturnNumberTen();
